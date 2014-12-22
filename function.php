@@ -1,5 +1,6 @@
 <?php
 
+//Add Allpay Widget to Dashboard
 add_action('wp_dashboard_setup', 'cwp_allpay_dashboard_widget');
  
 function cwp_allpay_dashboard_widget() {
